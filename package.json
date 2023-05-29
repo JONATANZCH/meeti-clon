@@ -1,0 +1,28 @@
+{
+  "name": "meeti",
+  "version": "1.0.0",
+  "description": "Proyecto Meeti con Node, PostgreSQL y EJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JONATANZCH/meeti-clon.git"
+  },
+  "author": "David Jonatan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JONATANZCH/meeti-clon/issues"
+  },
+  "homepage": "https://github.com/JONATANZCH/meeti-clon#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
